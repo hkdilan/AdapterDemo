@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -70,7 +69,7 @@ public class SimpleArrayAdapterWithSpinner extends Activity {
 		});
 		
 		//handling user selection
-		mSpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
+		mSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
 			@Override
 			public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {

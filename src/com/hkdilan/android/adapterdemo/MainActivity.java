@@ -31,6 +31,24 @@ public class MainActivity extends Activity {
 				startActivity(new Intent(MainActivity.this, SimpleArrayAdapterWithList.class));
 			}
 		});
+		
+		final Button btn3 = (Button) findViewById(R.id.button3);
+		btn3.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, CustomArrayAdapterActivity.class));
+			}
+		});
+		
+		final Button btn4 = (Button) findViewById(R.id.button4);
+		btn4.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, CustomArrayAdapterWithCustomObjectActivity.class));
+			}
+		});
     }
 
     @Override

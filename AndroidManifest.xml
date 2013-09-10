@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".SimpleArrayAdapterWithSpinner" android:label="Simple Array Adapter With Spinner" />
         <activity android:name=".SimpleArrayAdapterWithList" android:label="Simple Array Adapter With List" />
+        <activity android:name=".CustomArrayAdapterActivity" android:label="Custom Array Adapter Activity" />
+        <activity android:name=".CustomArrayAdapterWithCustomObjectActivity" android:label="Custom Array Adapter With Custom Object Activity" />
     </application>
 
 </manifest>

@@ -16,5 +16,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Simple Array Adapter with ListView" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Array Adapter Activity" />
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Array Adapter With List Activity" />
 
 </LinearLayout>
